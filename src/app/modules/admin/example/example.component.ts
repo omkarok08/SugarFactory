@@ -40,7 +40,7 @@ export class ExampleComponent
         { id: 4, name: 'अक्षय', status: false },
     ]);
     
-      displayedColumns: string[] = ['id', 'name', 'status', 'actions'];
+      displayedColumns: string[] = ['actions','id', 'name', 'status',];
     
       showAlert = false;
       alert = { type: 'info', message: '' };
