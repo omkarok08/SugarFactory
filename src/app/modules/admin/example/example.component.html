@@ -50,6 +50,11 @@
                     <th mat-header-cell *matHeaderCellDef>नाव</th>
                     <td mat-cell *matCellDef="let record">{{ record.name }}</td>
                 </ng-container>
+
+                <ng-container matColumnDef="date">
+                    <th mat-header-cell *matHeaderCellDef>दिनांक </th>
+                    <td mat-cell *matCellDef="let record">{{ record.date }}</td>
+                </ng-container>
         
                 <!-- Status Column -->
                 <ng-container matColumnDef="status">
