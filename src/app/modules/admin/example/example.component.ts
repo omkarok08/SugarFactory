@@ -34,13 +34,13 @@ export class ExampleComponent
     //     }
     //   }
     attendanceData = new MatTableDataSource([
-        { id: 1, name: 'रामेश', status: true },
+        { id: 1, name: 'रमेश', status: true },
         { id: 2, name: 'उमेश', status: false },
         { id: 3, name: 'राजेश', status: true },
         { id: 4, name: 'अक्षय', status: false },
     ]);
     
-      displayedColumns: string[] = ['id', 'name', 'status', 'actions'];
+      displayedColumns: string[] = ['actions','id', 'name', 'status',];
     
       showAlert = false;
       alert = { type: 'info', message: '' };
